@@ -1,0 +1,44 @@
+.thirdContainer {
+    background-color: #e2e8f0;
+  }
+  .thirdSpacing {
+    display: flex;
+    justify-content: center; 
+  }
+  .mainImgThird {
+    background-image: url(/public/bothBackground.png);
+    max-width: 425px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .imageCanvasMain{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .singleCanvas{
+    margin-bottom: 50px;
+    position: relative;
+    width: 70%;
+    text-align: center;
+  }
+  .singleStyle{
+    max-width: 80%;
+  }
+  .singleCanvas{
+    display: flex;
+  }
+  .downloadBtnStyle{
+    height: fit-content;
+    background: #fff;
+    border: 5px double #2f3192;
+    border-radius: 100px;
+    color: #2f3192;
+    padding: 7px 9px;
+    position: absolute;
+    right: -8%;
+    top: 0;
+  }

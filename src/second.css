@@ -1,0 +1,111 @@
+.secondContainer {
+    background-color: #e2e8f0;
+  }
+  .secondSpacing {
+    display: flex;
+    justify-content: center; 
+    height: 100vh;
+  }
+  .mainImage {
+    background-image: url(/public/bothBackground.png);
+    height: 100vh;
+    max-width: 425px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .iconStyle{
+    font-size: 30px;
+
+  }
+  .logoMain {
+    /* padding-top: 15px; */
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+  }
+  .cancelButton{
+    font-size: 24px;
+  }
+  .arrowDiv{
+    top: 11%;
+    left: 33%;
+    position: absolute;
+  }
+  .logoStyle {
+   width: 100%;
+   max-width: 250px;
+   }
+  .doctorMainForm{
+    margin: 0 15px;
+  }
+  .doctorLabel{
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .nameInput{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 38px;
+    padding: 2px 8px;
+    width: 95%;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .inImage{
+    width: 100px;
+  }
+  .uploadButton{
+    padding: 25px 35px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+
+
+  }
+  .buttonUploadDiv{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    box-shadow: 0px 2px 8px 2px #033a7269;
+    width: fit-content;
+  }
+  .submitDivSecond{
+    width: 100%;
+    text-align: center;
+}
+.submitBtnSecond{
+    background-color: #ec1d23;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 16px 20px;
+    width: 55%;
+    cursor: pointer;
+}
+.submitBtnSecond:hover{
+  background-color: #c02a2f;
+}
+.box {
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .img-preview {
+    overflow: hidden;
+  }
+  /* .thirdContainer{
+    display: none;
+  } */
+
+  .inputNameMain{
+    color: red;
+  }
+      

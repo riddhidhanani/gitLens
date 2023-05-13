@@ -1,0 +1,84 @@
+.mainContainer {
+  background-color: #e2e8f0;
+}
+.mainSpacing {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.mainImage {
+  background-image: url(/public/bothBackground.png);
+  height: 100vh;
+  max-width: 425px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logoMain {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.logoStyle {
+  width: 65%;
+  margin: auto !important;
+}
+.registerMain {
+    padding: 0 15px;
+  }
+  
+/* .selectStyle{
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: gray;
+  border: 1px solid gray;
+} */
+
+  h5 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .regionDiv {
+    margin: 15px 0px;
+  }
+  .HQDiv{
+      margin: 15px 0px;
+  }
+  .empNameDiv{
+      margin: 15px 0px;
+  
+  }
+  .labelStyle {
+    display: flex;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .asterick {
+    color: red;
+  }
+  .submitDiv{
+      width: 100%;
+      text-align: center;
+  }
+  .submitBtn{
+      background-color: #ec1d23;
+      border: none;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0 auto;
+      padding: 16px 20px;
+      width: 55%;
+      cursor: pointer;
+  }
+  .submitBtn:hover{
+    background-color: #c02a2f;
+  }
+  .errorStyling{
+    color: red;
+  }
